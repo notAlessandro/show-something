@@ -1,7 +1,7 @@
 var sequence = 1;
 $( document ).ready(function() 
 {
-	$('#btn1, #btn2, #btn3').click(function(event)
+	$('#btn1, #btn2, #btn3').click(function()
 	{
 		console.log("switch");
 		switch(sequence)
@@ -18,8 +18,6 @@ $( document ).ready(function()
 				sequence = 1;
 			break;
 		}
-
-		return false;
 
 	});
 });
