@@ -68,7 +68,7 @@ a
 	font-size: 15px;
 	line-height: 60px;
 
-	margin-right: 50px;
+	margin-right: 20px;
 }
 
 /* template: */
@@ -80,20 +80,32 @@ a
 	width: auto;
 	height: inherit; 
 
-	background: red;
-
-}
-
-.template-one
-{
 	background: #252223;
-	border-style: none;
-	border-right: 1px solid black;
 
-	flex-basis: 50%; 
 }
 
-.template-two
+#template-one
 {
-	background: brown;
+	border-style: none;
+	border-right: 1px solid black; 
+}
+
+#template-one, #template-two {overflow: hidden; flex-basis: 50%;}
+
+#imagetemplate
+{
+	height: 100%;
+	width: 100%;
+}
+
+#tagline
+{
+	position: absolute;
+	top: 30%;
+
+	height: 50vh;
+	width: 50%;
+
+	text-align: center;
+	color: white;
 }
